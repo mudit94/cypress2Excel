@@ -1,0 +1,5 @@
+test-names.xlsx
+output.json
+node_modules/
+package-lock.json
+cypress/
