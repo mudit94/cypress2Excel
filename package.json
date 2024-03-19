@@ -1,23 +1,22 @@
 {
   "name": "cypress-to-excel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.2.7",
+  "description": "Plugin to copy the it() description to the excel ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cypress-to-excel": "bin/cypressToExcel.js"
   },
   "keywords": ["cypress","testing","documentation","excel"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.11.0",
     "exceljs": "^4.4.0",
     "mochawesome-merge": "^4.3.0"
   },
   "devDependencies": {
     "fs": "^0.0.1-security",
-    "mochawesome": "^7.1.3",
-    "mochawesome-report-generator": "^6.2.0",
     "process": "^0.11.10"
   }
 }
