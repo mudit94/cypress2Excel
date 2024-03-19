@@ -34,6 +34,15 @@ then in the package.json add the script as
 
 copyToExcel: cypress-to-excel cypress/report/results.json  test-results.xlsx
 
+## Screenshot of Plugin in action
+1. On the cypress default scaffolded tests:
+![Plugin terminal response](screenshotofplugin.png)
+<br/>
+2. The excel generated:
+
+![Excel file](plugininaction.png)
+
+
 ## Future plan
 1. Incorporation of the count of test cases that might have been duplicated by recording the occurence of each test case in new column
 2. Serial number for tracking the test cases
