@@ -14,7 +14,7 @@
 5. Currently supported format for output (.xls,.xlsx,.csv)
 
 ## Prerequisites
-1. The Json report , preferably combined report i.e Mochawesome report must exist
+1. The Json report , preferably combined report i.e Mochawesome merged report must exist
 
 ## Installation 
 
