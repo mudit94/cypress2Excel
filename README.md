@@ -14,7 +14,7 @@
 5. Currently supported format for output (.xls,.xlsx,.csv)
 
 ## Prerequisites
-1. The Json report , preferably combined report i.e Mochawesome report must exist
+1. The Json report , preferably combined report i.e Mochawesome merged report must exist
 
 ## Installation 
 
@@ -24,9 +24,11 @@ npm i -g cypress-to-excel
 
 ## Usage
 
-In your package.json, add a script 
-copyToExcel: cypress-to-excel "<path to the combined json report file name>"  "<path to the excel report file name>"
+After having the merged report created,
+In the package.json, add a script 
+copyToExcel: cypress-to-excel `<path to the combined json report file name>`  `<path to the excel report file name>`
 
+Execute `npm run copyToExcel`
 ## Example
 
 Suppose json report exists in the cypress/report directory with file name as cypress/report/results.json and the excel file name that you would like to generate is test-results.xlsx
